@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading{
+    text-align: center;
+    font-size: 26px;
+    text-decoration: 2px solid underline;
+}
+.container{
+    position: relative;
+    height: 600px;
+    width: 400px;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 4px dashed #f3c406;
+    left: 38%;
+    box-shadow: 10px 15px 20px #154df7;
+    transition: 0.5s all ease;
+    cursor: pointer;
+    rotate: 0deg;
+    margin-top: -700px;
+}
+.container:hover{
+    rotate: 360deg;
+
+}
+p{
+    font-family: cursive;
+}
+.container .header{
+    font-size: 22px;
+    width: 80%;
+    margin-left: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px #f30635;
+    font-weight: 600;
+    border: 3px dashed aqua;
+    padding: 20px;
+    background: #021652;
+    border-radius: 10px 0px 10px 0px;
+    transition: 0.3s all ease;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container .header:hover{
+    transform: scale(1.2);
+}
+
+.container #date-text{
+    position: absolute;
+    font-size: 18px;
+    padding-left: 40px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: 2px solid underline black;
+}
+
+.container #Date{
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 150px;
+    border: 3px solid #f30635;
+    font-size: 20px;
+
+}
+
+.container button{
+    width: 80%;
+    height: 40px;
+    background: orange;
+    border: 3px solid #f30635;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.3s all ease;
+
+}
+.container button:hover{
+transform: translateY(-10px);
+}
+.container .made{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f30635;
+    bottom: 10px;
+    margin-left: 65px;
+}
+
+.Copyrights{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+
+}
+
+.background{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+.sparkle{
+    position: absolute;
+    height: 50px;
+    z-index: 0;
+    width: 50px;
+    border-radius: 50%;
+    animation: animate 5s alternate-reverse infinite;
+}
+
+@keyframes animate {
+    0%{
+
+        opacity: 1;
+        transform: scale(1);
+        margin-top: -200px;
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1.2);
+        margin-top: 300px;
+
+    }
+    75%{
+        opacity: 0;
+        transform: scale(1);
+        margin-top: 400px;
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.2);
+        margin-top: 100px;
+
+    }
+    
+}
+
+.sparkle:nth-child(1){
+    left: 85%;
+    top: 25%;
+    background: #fc0a47;
+}
+.sparkle:nth-child(2){
+    left: 8%;
+    top: 50%;
+    background: aqua;
+}
+
+.sparkle:nth-child(3){
+    left: 2%;
+    top: 20%;
+    background: red;
+}
+
+.sparkle:nth-child(4){
+left: 35%;
+top:30%;
+background: #f3c406;
+}
+.sparkle:nth-child(5){
+    left: 15%;
+    top: 40%;
+    background: #021652;
+}
+.sparkle:nth-child(5){
+    left:60%;
+    top: 30%;
+    background: #fc0a47;
+}
+.sparkle:nth-child(6){
+    left: 65%;
+    top: 40%;
+    background: #f30635;
+}
+.sparkle:nth-child(7){
+    left: 70%;
+    top: 35%;
+    background: #154df7;
+}
+.sparkle:nth-child(8){
+    left: 80%;
+    top: 35%;
+    background: #021652;
+}
+.sparkle:nth-child(9){
+    left: 23%;
+    top: 40%;
+    background: #fc0a47;
+}
+.sparkle:nth-child(10){
+    left: 20%;
+    top: 35%;
+    background: #f3c406;
+}
+.sparkle:nth-child(11){
+left:70%;
+top: 35%;
+background: #fc0a47;
+}
+.sparkle:nth-child(12){
+    left: 90%;
+    top:35%;
+    background: #8fd3f4;
+}
+.sparkle:nth-child(13){
+    left: 80%;
+    top: 40%;
+    background: #f30635;
+}
+    .sparkle:nth-child(14){
+        left: 15%;
+        top:24%;
+        background: #fc0a47;
+}
+.sparkle:nth-child(15){
+    left: 10%;
+    top:25%;
+    background: #fc0a47;
+}
+
+#display{
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: #fc0a47;
+}
+
